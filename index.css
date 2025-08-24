@@ -1,0 +1,103 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#logo {
+    width: 127px;
+    padding-left: 15px;
+}
+
+.avatar-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.publisher-info .avatar-img {
+    float: left;
+}
+
+.publisher-info {
+    margin: 15px auto;
+    padding-left: 15px;
+}
+
+.publisher-info h1, .publisher-info p {
+    padding-left: 10px;
+}
+
+.regular-text {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+#post-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  min-height: 375px;
+  min-width: 375px;
+}
+
+.reaction {
+    width: 23.3px;
+    padding-left: 7px;
+}
+
+.reaction:hover, 
+.reaction:focus {
+    opacity: 0.6;
+}
+
+.avatar-img:hover,
+.avatar-img:focus, {
+    box-shadow: 0px 0px .1px .3px #2b2b2b;
+    opacity: 0.94;
+}
+
+.avatar-img:active,
+.reaction:active,
+#logo:active {
+  transform: translateY(1px); /* Moves the element down slightly */
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.feedback p {
+    padding-top: 10px;
+}
